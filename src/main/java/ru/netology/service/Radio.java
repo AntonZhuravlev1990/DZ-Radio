@@ -20,6 +20,7 @@ public class Radio {
             return;
         }
         currentVolume = newCurrentVolume;
+        return;
     }
 
     public void setCurrentRadioStation(int newCurrentRadioStation) {
